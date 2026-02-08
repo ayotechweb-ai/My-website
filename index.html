@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AyoTech Web | Professional Web Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="fixed w-full z-50 glass border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">AyoTech<span class="text-gray-900">Web</span></h1>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+            <a href="https://wa.me/2347037933623" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition">Hire Me</a>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6 bg-gradient-to-br from-blue-50 to-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Expert Web Solutions for Your <span class="text-blue-600">Business Growth.</span></h2>
+            <p class="text-xl text-gray-600 mb-10">Hi, I'm Ayo. I build high-performing websites tailored to your specific needs.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#services" class="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-black transition">View My Services</a>
+                <a href="mailto:ayotechweb@gmail.com" class="bg-white border border-gray-300 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition">Send an Email</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold mb-4">What I Can Do For You</h3>
+            <div class="h-1 w-20 bg-blue-600 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-8 border border-gray-100 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-briefcase"></i></div>
+                <h4 class="text-xl font-bold mb-3">Business Websites</h4>
+                <p class="text-gray-600">Professional corporate sites to build brand authority and trust.</p>
+            </div>
+
+            <div class="p-8 border border-gray-100 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-shopping-cart"></i></div>
+                <h4 class="text-xl font-bold mb-3">E-commerce Stores</h4>
+                <p class="text-gray-600">Fully functional online stores with secure payment integration.</p>
+            </div>
+
+            <div class="p-8 border border-gray-100 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-graduation-cap"></i></div>
+                <h4 class="text-xl font-bold mb-3">School Portals</h4>
+                <p class="text-gray-600">Custom management systems for students, staff, and results.</p>
+            </div>
+
+            <div class="p-8 border border-gray-100 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-rocket"></i></div>
+                <h4 class="text-xl font-bold mb-3">Ad Landing Pages</h4>
+                <p class="text-gray-600">High-converting pages designed to turn visitors into customers.</p>
+            </div>
+
+            <div class="p-8 border border-gray-100 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-tools"></i></div>
+                <h4 class="text-xl font-bold mb-3">Maintenance</h4>
+                <p class="text-gray-600">Regular updates, security checks, and speed optimization.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Ready to start your project?</h3>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <a href="mailto:ayotechweb@gmail.com" class="flex items-center gap-3 text-lg hover:text-blue-400 transition">
+                    <i class="fas fa-envelope"></i> ayotechweb@gmail.com
+                </a>
+                <a href="https://wa.me/2347037933623" class="flex items-center gap-3 text-lg hover:text-green-400 transition">
+                    <i class="fab fa-whatsapp"></i> +234 703 793 3623
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 text-sm">
+        &copy; 2026 AyoTech Web. All rights reserved.
+    </footer>
+
+</body>
+</html>
